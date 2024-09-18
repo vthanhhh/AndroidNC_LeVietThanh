@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
                     });
                     number++; //
                     try {
-                        Thread.sleep(2000); //
+                        Thread.sleep(2000); // Dừng 2 giây
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
